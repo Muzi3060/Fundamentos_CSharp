@@ -1,0 +1,13 @@
+# Rider / JetBrains
+.idea/
+
+# Build do .NET
+bin/
+obj/
+
+# Arquivos do usuário do Visual Studio/Rider
+*.user
+*.suo
+
+# Arquivos temporários
+*.tmp
