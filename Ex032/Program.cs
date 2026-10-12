@@ -11,10 +11,12 @@ class Program
 
     static string GerarEtiqueta(string nome) {
         return "Produto: " + nome;
+        // assinatura diferente, apenas um parâmetro do tipo string
     }
     
     static string GerarEtiqueta(string nome, double preco) {
         return "Produto: " + nome + " - Preço: R$" + preco.ToString("F2");
+        // assinatura diferente, dois parâmetros: string e double
     }
     
     
